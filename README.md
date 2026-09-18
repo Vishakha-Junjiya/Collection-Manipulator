@@ -1,6 +1,10 @@
 # ⭐ Student Data Organizer
 
+[svg](https://github.com/Vishakha-Junjiya/student-management/blob/main/README.md#-student-data-organizer)
+
 ## 📌 Project Overview
+
+[svg](https://github.com/Vishakha-Junjiya/student-management/blob/main/README.md#-project-overview)
 
 The Student Data Organizer is a beginner-friendly Python project used to manage student information through a menu-driven program.
 
@@ -9,6 +13,8 @@ This project allows users to add, display, update, and delete student records. I
 The project demonstrates the practical use of Python fundamentals, including lists, dictionaries, loops, conditional statements, match-case, user input, type casting, and data manipulation.
 
 ## ✨ Features
+
+[svg](https://github.com/Vishakha-Junjiya/student-management/blob/main/README.md#-features)
 
 - 👨‍🎓 Add new student information.
 - 📋 Display all student records.
@@ -21,7 +27,11 @@ The project demonstrates the practical use of Python fundamentals, including lis
 
 ## 🐍 Python Concepts Used
 
+[svg](https://github.com/Vishakha-Junjiya/student-management/blob/main/README.md#-python-concepts-used)
+
 ### 1. 📋 List
+
+[svg](https://github.com/Vishakha-Junjiya/student-management/blob/main/README.md#1--list)
 
 A list is used to store multiple student records in one place.
 
@@ -126,24 +136,30 @@ subjects = [
     "Artificial Intelligence",
     "Machine Learning"
 ]
+📁 Project Structure
+
+svg
+
+project_3/
+│
+├── stu_man_if.py
+├── student_management.png
+└── README.md
+stu_man_if.py – Main Python program used to manage student records.
+student_management.png – Output screenshot of the program.
+README.md – Project documentation and information.
 🔄 Program Workflow
 
+svg
+
 👋 Display the welcome message.
-
 📋 Display the menu.
-
 👨‍🎓 Add student information.
-
 📄 Display all student records.
-
 ✏️ Update student information.
-
 🗑️ Delete student information.
-
 📚 Display the subjects offered.
-
 🚪 Exit the program when the user selects option 6.
-
 👨‍🎓 Adding Student Information
 
 The user enters the student ID, name, and age.
@@ -235,35 +251,20 @@ Exiting the program...
 After completing this project, I learned how to:
 
 📋 Store multiple records using lists.
-
 📖 Store structured data using dictionaries.
-
 🔁 Use while loops.
-
 🔀 Use match-case statements.
-
 ⌨️ Take input from the user.
-
 🔢 Convert input using type casting.
-
 ✏️ Update existing records.
-
 🗑️ Delete records from a list.
-
 🔍 Search for specific student information.
-
 📚 Store and display subjects.
-
 💻 Build a menu-driven Python program.
-
 🛠️ Technologies Used
-
 🐍 Python 3
-
 💻 Visual Studio Code
-
 🐙 GitHub
-
 👩‍💻 Author
 
 Vishakha Junjiya
@@ -292,4 +293,5 @@ This project helped me understand how to manage student records using Python lis
 
 It also improved my understanding of loops, match-case statements, user input, type casting, updating, and deleting data.
 
+The Student Data Organizer is part of my Python learning journey and portfolio.
 The Student Data Organizer is part of my Python learning journey and portfolio.
