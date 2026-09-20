@@ -131,10 +131,10 @@ students.remove(student)
 A list is also used to store the subjects offered by the course.
 
 subjects = [
-    "Python",
-    "Data Science",
-    "Artificial Intelligence",
-    "Machine Learning"
+    "Math",
+    "Science",
+    "English",
+
 ]
 📁 Project Structure
 
@@ -207,10 +207,10 @@ Example:
 
 Subjects Offered:
 
-1. Python
-2. Data Science
-3. Artificial Intelligence
-4. Machine Learning
+1.Math
+2.Science
+3.English
+
 💻 Example Output
 Welcome to the Student Data Organizer!
 
@@ -238,10 +238,10 @@ Student Age: 20
 Enter your choice: 5
 
 Subjects Offered:
-Python
-Data Science
-Artificial Intelligence
-Machine Learning
+Math
+Science
+English
+
 
 Enter your choice: 6
 
