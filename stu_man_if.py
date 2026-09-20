@@ -1,4 +1,3 @@
-
 print("Welcome to the Student Data Organizer!")
 
 students = []
@@ -15,7 +14,6 @@ while True:
 
     choice = int(input("Enter your choice: "))
 
-   
     if choice == 1:
         print("\nEnter student details:")
 
@@ -39,10 +37,8 @@ while True:
             for subject in subjects_input.split(",")
         )
 
-       
         student_identity = (student_id, dob)
 
-       
         student = {
             "identity": student_identity,
             "name": name,
@@ -51,15 +47,12 @@ while True:
             "subjects": subjects
         }
 
-     
         students.append(student)
 
-        
         student_data[student_id] = student
 
         print("Student added successfully!")
 
-   
     elif choice == 2:
         if not students:
             print("No students found!")
@@ -82,7 +75,6 @@ while True:
                     f"Subjects: {subject_list}"
                 )
 
-   
     elif choice == 3:
         student_id = int(
             input("Enter ID you want to update: ")
@@ -104,7 +96,6 @@ while True:
         else:
             print("Student not found!")
 
-   
     elif choice == 4:
         student_id = int(
             input("Enter student ID to delete: ")
@@ -115,7 +106,6 @@ while True:
 
             students.remove(student)
 
-            # Delete student from dictionary
             del student_data[student_id]
 
             print("Student deleted successfully!")
@@ -123,19 +113,18 @@ while True:
         else:
             print("Student not found!")
 
-   
     elif choice == 5:
-        subjects_offered = set()
-
-        for student in students:
-            subjects_offered.update(student["subjects"])
+        subjects_offered = {
+            "Math",
+            "Science",
+            "English"
+        }
 
         print("\nSubjects Offered:")
 
         for subject in sorted(subjects_offered):
             print(subject)
 
-   
     elif choice == 6:
         print("Thank you for using the Student Data Organizer!")
         break
