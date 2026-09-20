@@ -142,10 +142,10 @@ svg
 
 project_3/
 │
-├── stu_man_if.py
+├── Collection-Manipulator.py
 ├── student_management.png
 └── README.md
-stu_man_if.py – Main Python program used to manage student records.
+Collection-Manipulator.py – Main Python program used to manage student records.
 student_management.png – Output screenshot of the program.
 README.md – Project documentation and information.
 🔄 Program Workflow
