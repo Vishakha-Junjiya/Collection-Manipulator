@@ -3,6 +3,12 @@ print("Welcome to the Student Data Organizer!")
 students = []
 student_data = {}
 
+subjects_offered = {
+    "Math",
+    "Science",
+    "English"
+}
+
 while True:
     print("\nSelect an option:")
     print("1. Add Student")
@@ -28,14 +34,32 @@ while True:
         grade = input("Grade: ")
         dob = input("Date of Birth (YYYY-MM-DD): ")
 
-        subjects_input = input(
-            "Subjects (comma-separated): "
+        print("\nAvailable Subjects:")
+        print("1. Math")
+        print("2. Science")
+        print("3. English")
+
+        subject_choice = input(
+            "Enter subject numbers (comma-separated): "
         )
 
-        subjects = set(
-            subject.strip()
-            for subject in subjects_input.split(",")
-        )
+        selected_subjects = set()
+
+        for number in subject_choice.split(","):
+            number = number.strip()
+
+            if number == "1":
+                selected_subjects.add("Math")
+            elif number == "2":
+                selected_subjects.add("Science")
+            elif number == "3":
+                selected_subjects.add("English")
+            else:
+                print("Invalid subject selected!")
+        
+        if not selected_subjects:
+            print("No valid subject selected!")
+            continue
 
         student_identity = (student_id, dob)
 
@@ -44,7 +68,7 @@ while True:
             "name": name,
             "age": age,
             "grade": grade,
-            "subjects": subjects
+            "subjects": selected_subjects
         }
 
         students.append(student)
@@ -114,12 +138,6 @@ while True:
             print("Student not found!")
 
     elif choice == 5:
-        subjects_offered = {
-            "Math",
-            "Science",
-            "English"
-        }
-
         print("\nSubjects Offered:")
 
         for subject in sorted(subjects_offered):
